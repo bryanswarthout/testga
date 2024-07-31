@@ -1,4 +1,4 @@
-import "./App.css"
+import './App.css'
 import Calculator from './components/Calculator';
 import Advertisement from './components/Advertisement';
 
