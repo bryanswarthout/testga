@@ -6,7 +6,7 @@ describe('Calculator', () => {
   it('should contain the expected text', () => {
     render(<Calculator />);
 
-    const itemElement = document.querySelector('h2');
+    const itemElement = document.querySelector('h1');
 
     if (itemElement) {
       expect(itemElement.textContent).toBe('Simple Calculator');  
