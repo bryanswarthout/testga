@@ -14,6 +14,5 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'tsx-quotes': [2, 'prefer-single'],
   },
 }
