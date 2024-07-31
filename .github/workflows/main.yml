@@ -28,10 +28,15 @@ jobs:
       # Install dependencies
       - name: 🧰 install deps
         run: npm install
-
+        
       # Run lint
       - name: Run lint
         run: npm run lint
+        
+      # Run build
+      - name: Run Build
+        run: npm run build
+
 
       - name: Test
         run: npm run test
